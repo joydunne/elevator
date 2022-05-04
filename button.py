@@ -5,6 +5,7 @@ import time
 buttonOne= Button(2)
 buttonTwo= Button(3)
 while True:
+    time.sleep (0.1)
     if buttonOne.is_pressed:
         print("Button One is pressed")
     if buttonTwo.is_pressed:
