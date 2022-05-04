@@ -13,10 +13,10 @@ while True:
         if pos == "down":
             pos = "up"
             for i in range (4):
-        	       windowMotor.rotate()
+        	       elevatorMotor.rotate()
     if buttonTwo.is_pressed:
         print("Button Two is pressed")
         if pos == "up":
             pos = "down"
             for i in range (4):
-        	       windowMotor.rotate(direction = "counterClockwise")
+        	       elevatorMotor.rotate(direction = "counterClockwise")
